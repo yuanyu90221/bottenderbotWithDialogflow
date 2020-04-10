@@ -60,3 +60,23 @@ Runs the test cases using [Jest](https://jestjs.io/).
 To learn Bottender, check out the [Bottender documentation](https://bottender.js.org/docs/en/getting-started).
 
 For more examples, see [Bottender examples](https://github.com/Yoctol/bottender/tree/master/examples).
+
+## Reference Document
+
+[使用dialogflow with bottender實做簡易客服bot](https://medium.com/@EtrexKuo/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-dialogflow-%E4%BE%86%E5%84%AA%E5%8C%96-line-bot-%E7%94%A8%E6%88%B6%E9%AB%94%E9%A9%97-27929fbbe73d)
+
+## introduction
+
+這個專案透過Dialogflow的Intent來解析
+
+使用者在bot內的輸入
+
+並且使用Dialogflow 的Train Entity
+
+推導出可能類似的句子
+
+然後透過分類找到Intent對應的handlerName
+
+然後執行回覆
+
+
